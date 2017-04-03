@@ -1,12 +1,11 @@
 # ExploreLatexRenderingInWebUsingMathJaxKatex
 This is created to contains examples, samples to test rendering of complicated mathematical expression using different rendering libraries like MathJax and KaTex
 
-Latex to HTML Rendering
+Latex to HTML Rendering:
 
 Found 2 MathJax and KaTeX JS lib to render Latex. These JS lib will converts the latex to MathML 
 
-
-MathJax
+MathJax:
 
 It is a popular JS lib used widely to render mathematical equations 
 https://www.mathjax.org/
@@ -47,7 +46,7 @@ http://www.imatheq.com/imatheq/com/imatheq/math-equation-editor-latex-mathml.htm
 http://calcinator.com/mathsolver.html
 
 
-Katex
+Katex:
 Khan Academy has released a new library to typeset mathematical notation on webpages, called KaTeX
 
 https://khan.github.io/KaTeX/
@@ -60,12 +59,14 @@ The KaTeX library takes LaTeX as input and produces HTML as output. When such ou
 Both KaTeX and MathJax's biggest slowdown is the font loading [4]
 However, since KaTeX's CSS can be included manually (instead of letting MathJax put it in the DOM after load) it should load a little faster.
 
-
 There's a rough "time to process page" at the top. - http://www.intmath.com/cg5/katex-mathjax-comparison.php
 
 KaTeX doesn't handle several of the equations yet. [2]
+
 KaTeX got exception when tried to render Chemical equation during the experimentation [12] [13]
+
 Khan Academy is using KaTeX as a first port of call to render maths, and using MathJax as a fallback for things it can’t render [3]
+
 KaTeX can’t render a number of equations such as \overrightarrow{AB} or aligned equations [6]
 
 https://github.com/Khan/KaTeX/wiki/Function-Support-in-KaTeX
